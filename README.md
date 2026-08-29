@@ -10,11 +10,10 @@
 [Bernd Bickel](https://berndbickel.com/about-me)<br>
 *SIGGRAPH Asia 2026 / ACM Transactions on Graphics*
 
-Official implementation of the paper **"Inverse Rendering for Modeling with Line Primitives."**
+[Project]() | [Paper]() | [YouTube]() | [Dataset](https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset)
 
-**Code and additional materials are coming soon.**
-
-The conference-mandated release is due by **November 2, 2026**, with a much earlier release planned.
+> [!NOTE]
+> **Code is coming soon.** The conference-mandated release is due by November 2, 2026, but we plan to release in **early September 2026**.
 
 ## Citation
 
