@@ -10,7 +10,7 @@
 [Bernd Bickel](https://berndbickel.com/about-me)<br>
 *SIGGRAPH Asia 2026 / ACM Transactions on Graphics*
 
-[Project]() | [Paper]() | [YouTube](https://www.youtube.com/watch?v=BTQmIC_yEkU) | [Dataset](https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset)
+[Project](https://kenji-tojo.github.io/sa26-line-primitives/) | [YouTube](https://www.youtube.com/watch?v=BTQmIC_yEkU) | [Dataset](https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset)
 
 > [!NOTE]
 > **Code is coming soon.** The conference-mandated release is due by November 2, 2026, but we plan to release in **early September 2026**.
