@@ -1,0 +1,9 @@
+numpy
+scipy
+imageio
+imageio-ffmpeg
+Pillow
+tqdm
+lpips
+pytorch-msssim
+huggingface_hub

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<!-- Add-to-Home-Screen -> opens with no Safari/Chrome chrome at all. -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Line Primitives">
+<link rel="manifest" href="./manifest.webmanifest">
+<title>Line Primitives</title>
+<style>
+  html, body {
+    margin: 0; padding: 0;
+    background: #000; color: #ddd;
+    height: 100vh; width: 100vw;
+    overflow: hidden;
+    font: 14px -apple-system, system-ui, "Helvetica Neue", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    overscroll-behavior: none;
+  }
+  #canvas {
+    display: block;
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    touch-action: none;
+  }
+  #ui {
+    position: absolute;
+    bottom: calc(env(safe-area-inset-bottom, 8px) + 44px); left: 12px; right: 12px;
+    display: flex;
+    gap: 8px; align-items: center; flex-wrap: wrap;
+    z-index: 10;
+  }
+  #ui select, #ui button {
+    background: rgba(20,20,20,0.85);
+    color: #eee;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font: inherit;
+    -webkit-appearance: none; appearance: none;
+  }
+  #stats {
+    position: absolute;
+    top: calc(env(safe-area-inset-top, 8px) + 64px); left: 32px;
+    padding: 4px 6px;
+    /* Lay the text out vertically along the left edge - reads top->bottom
+       with each glyph rotated 90 deg clockwise.  Avoids the Safari URL bar
+       at the top in portrait without occupying horizontal space. */
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.9), 0 0 4px rgba(0,0,0,0.6);
+    z-index: 10;
+    white-space: pre;
+    -webkit-user-select: none; user-select: none;
+  }
+  #err {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    padding: 16px 20px;
+    background: rgba(60,0,0,0.85);
+    color: #fee; border-radius: 8px;
+    max-width: 80%; text-align: center;
+    display: none;
+    z-index: 20;
+  }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div id="ui">
+  <select id="scene"></select>
+</div>
+<div id="stats">loading...</div>
+<div id="err"></div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

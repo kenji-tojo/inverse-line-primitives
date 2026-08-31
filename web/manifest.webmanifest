@@ -1,0 +1,11 @@
+{
+  "name": "Line Primitives",
+  "short_name": "Lines",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": []
+}
