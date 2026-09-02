@@ -1,19 +1,34 @@
-# Inverse Rendering for Modeling with Line Primitives
+<h1 align="center">Inverse Rendering for Modeling with Line Primitives</h1>
+
+<p align="center">
+  <a href="https://kenji-tojo.github.io/">Kenji Tojo</a><sup>1</sup> &nbsp;&nbsp;
+  <a href="https://faculty.runi.ac.il/arik/site/index.html">Ariel Shamir</a><sup>2</sup> &nbsp;&nbsp;
+  <a href="https://cgenglab.github.io/en/authors/admin/">Nobuyuki Umetani</a><sup>3</sup> &nbsp;&nbsp;
+  <a href="https://berndbickel.com/about-me">Bernd Bickel</a><sup>1</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>ETH Zürich &nbsp;&nbsp;
+  <sup>2</sup>Reichman University &nbsp;&nbsp;
+  <sup>3</sup>The University of Tokyo
+</p>
+
+<p align="center">
+  ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2026)
+</p>
+
+<p align="center">
+  <a href="https://kenji-tojo.github.io/sa26-line-primitives/">Project</a> |
+  <a href="https://kenji-tojo.github.io/sa26-line-primitives/resources/sa26_lines_paper.pdf">Paper</a> |
+  <a href="https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset">Dataset</a> |
+  <a href="https://www.youtube.com/watch?v=BTQmIC_yEkU">YouTube</a>
+</p>
 
 <p align="center">
   <img src="pics/teaser.jpg" width="100%">
 </p>
 
-[Kenji Tojo](https://kenji-tojo.github.io/),
-[Ariel Shamir](https://faculty.runi.ac.il/arik/site/index.html),
-[Nobuyuki Umetani](https://cgenglab.github.io/en/authors/admin/),
-[Bernd Bickel](https://berndbickel.com/about-me)<br>
-*SIGGRAPH Asia 2026 / ACM Transactions on Graphics*
-
-[Project](https://kenji-tojo.github.io/sa26-line-primitives/) |
-[Paper](https://kenji-tojo.github.io/sa26-line-primitives/resources/sa26_lines_paper.pdf) |
-[Dataset](https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset) |
-[YouTube](https://www.youtube.com/watch?v=BTQmIC_yEkU)
+We present an inverse rendering method for reconstructing fuzzy, anisotropic geometry—such as hair, fur, fibers, and textiles—from multi-view images using explicit line primitives with anti-aliasing. Unlike volumetric representations such as 3D Gaussians, our representation is directly compatible with standard rasterization pipelines. To enable robust optimization of numerous line segments, we introduce a stochastic differentiable rasterizer that provides informative gradients for vertex positions, attributes, and discrete connectivity.
 
 ## BibTeX
 
