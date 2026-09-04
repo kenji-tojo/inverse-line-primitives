@@ -56,6 +56,8 @@ We present an inverse rendering method for reconstructing fuzzy, anisotropic geo
 
 This project requires Python >= 3.10, an NVIDIA GPU, the [Vulkan SDK](https://vulkan.lunarg.com/sdk/home), and the CUDA Toolkit.
 
+> **Viewer-only setup:** You can preview our released checkpoints without CUDA, including on macOS. Only the Python environment and FuzzyDR repository are needed from the setup steps below; then follow the [Interactive Viewer](#interactive-viewer) instructions.
+
 Create and activate a Python virtual environment:
 
 ```bash
