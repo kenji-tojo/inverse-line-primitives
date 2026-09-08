@@ -18,10 +18,11 @@
 </p>
 
 <p align="center">
-  <a href="https://kenji-tojo.github.io/sa26-line-primitives/">Project</a> |
-  <a href="https://kenji-tojo.github.io/sa26-line-primitives/resources/sa26_lines_paper.pdf">Paper</a> |
-  <a href="https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset">Dataset</a> |
-  <a href="https://www.youtube.com/watch?v=BTQmIC_yEkU">YouTube</a>
+  <a href="https://kenji-tojo.github.io/sa26-line-primitives/"><img src="https://img.shields.io/badge/🌐%20Project-Page-4285F4?style=flat" alt="Project Page"></a>
+  <a href="https://kenji-tojo.github.io/sa26-line-primitives/resources/sa26_lines_paper.pdf"><img src="https://img.shields.io/badge/📄%20Paper-PDF-B31B1B?style=flat" alt="Paper"></a>
+  <a href="https://huggingface.co/datasets/kenji-tojo/fuzzy_dataset"><img src="https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-FFD21E?style=flat" alt="Dataset"></a>
+  <a href="https://www.youtube.com/watch?v=BTQmIC_yEkU"><img src="https://img.shields.io/badge/▶%20Video-YouTube-FF0000?style=flat" alt="Video"></a>
+  <a href="https://github.com/kenji-tojo/inverse-line-primitives"><img src="https://img.shields.io/github/stars/kenji-tojo/inverse-line-primitives?style=social" alt="GitHub Stars"></a>
 </p>
 
 <p align="center">
