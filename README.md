@@ -53,6 +53,23 @@ We present an inverse rendering method for reconstructing fuzzy, anisotropic geo
 
 ---
 
+## Table of Contents
+
+- [Setup](#setup)
+- [Datasets](#datasets)
+  - [Fuzzy Dataset](#fuzzy-dataset)
+  - [Shelly Dataset](#shelly-dataset)
+- [Running](#running)
+  - [Multi-GPU Systems](#multi-gpu-systems)
+  - [Reproducibility](#reproducibility)
+- [Interactive Viewer](#interactive-viewer)
+  - [User Interface](#user-interface)
+  - [Web Viewer](#web-viewer)
+  - [Benchmarking](#benchmarking)
+- [Troubleshooting](#troubleshooting)
+
+---
+
 ## Setup
 
 This project requires Python >= 3.10, an NVIDIA GPU, the [Vulkan SDK](https://vulkan.lunarg.com/sdk/home), and the CUDA Toolkit.
@@ -195,7 +212,7 @@ python scripts/viewer/view.py
 
 You can specify an input checkpoint path to view other scenes or models from your own training.
 
-### Viewer UI
+### User Interface
 
 <p align="center">
   <img src="pics/viewer.jpg" width="100%">
